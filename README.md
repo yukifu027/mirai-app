@@ -22,3 +22,51 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## usersテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|email|string|null: false|
+|password|string|null: false|
+|name|string|null: false|
+
+### Association
+- has_many :comments
+
+## placesテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|image|string|--------|
+|content|text|null: false|
+|webpage|string|--------|
+
+### Association
+- has_many :comments
+
+<!-- ## areasテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|image|string|null: false, foreign_key: true|
+|content|text|null: false, foreign_key: true|
+|webpage|string|--------|
+
+### Association
+- has_many :comments -->
+
+
+## commentsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|text|text|null: false|
+|place_id|integer|null: false, foreign_key: true|
+|user_id|integer|null: false, foreign_key: true|
+
+### Association
+- belongs_to :user
+- belongs_to :place
