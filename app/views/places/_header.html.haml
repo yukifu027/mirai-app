@@ -1,6 +1,12 @@
 .header
-  = link_to new_user_registration_path, class: "header__login-btn" do
-    ログイン
+  - if user_signed_in?
+    = link_to destroy_user_session_path, method: :delete, class: "header__login-btn" do
+      ログアウト
+  - else
+    = link_to new_user_registration_path, class: "header__login-btn" do
+      新規登録
+    = link_to new_user_session_path, class: "header__login-btn2" do
+      ログイン
   %img.header__image{src: "title.png", alt: "トップ画像"}
   .header__search
     %input.text-field{:placeholder => "場所を検索", :type => "text"}
