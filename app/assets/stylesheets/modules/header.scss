@@ -1,0 +1,40 @@
+.header{
+  width: 100%;
+  height: 450px;
+  background-color: #99FF99;
+  position: relative;
+  &__login-btn{
+    position: absolute;
+    top: 15px;
+    right: 65px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  &__image{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+  &__search{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    background-color: white;
+    box-shadow:0px 0px 2px;
+    height: 100px;
+    width: 800px;
+    border-radius: 5px;
+    .text-field{
+      width: 600px;
+      height: 50px;
+      margin: 25px 100px;
+    }
+  }
+
+}
