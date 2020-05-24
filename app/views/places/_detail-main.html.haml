@@ -1,15 +1,14 @@
 .detail-main
   .contents
     .contents__title
-      場所の名前が入ります
-    = image_tag "/top-page.png", alt: "場所写真", class: "contents__image"
+      = @place.name
+    = image_tag "/#{@place.image}", alt: "場所写真", class: "contents__image"
     .contents__explain
-      高田松原７万本のうち唯一生き残った復興のシンボル。
-      震災後枯死しましたが、陸前高田市が寄付金により現状の形で再整備しました。
+      = @place.content
     .contents__info
       基本情報
     .contents__URL
-      URL : https://www.city.rikuzentakata.iwate.jp/kategorie/fukkou/ipponmatu/ipponmatu.html
+      URL : #{@place.webpage}
     .contents__comment
       .items
         .title
