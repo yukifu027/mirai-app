@@ -13,11 +13,16 @@
       .items
         .title
           コメント
-        = link_to "#", class: "edit-btn" do
+        = link_to new_place_comment_path(@place.id), class: "edit-btn" do
           コメントをする
       .messages
-        .message
-          .message__user-name
-            yuki
-          .message__content
-            津波の記憶がダイレクトに伝わってくるようで、とても有意義な場所でした。ぜひ行ってみて欲しいです。
+        - if @comments.exists?
+          - @comments.each do |comment|
+            .message
+              .message__user-name
+                = comment.user.name
+              .message__content
+                = comment.text
+        - else
+          .message
+            現在投稿されているコメントはありません
