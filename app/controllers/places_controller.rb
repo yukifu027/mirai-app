@@ -6,5 +6,6 @@ class PlacesController < ApplicationController
 
   def show 
     @place = Place.find(params[:id])
+    @comments = @place.comments.includes(:user)
   end
 end

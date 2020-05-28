@@ -1,0 +1,9 @@
+.content__title
+  新規記事の作成
+.container
+  - if current_user
+    = form_for [@place, @comment] do |form|
+      = form.text_area :text, placeholder: "コメントする"
+      = form.submit 
+  - else 
+    ※※※ コメントの投稿には新規登録/ログインが必要です ※※※
