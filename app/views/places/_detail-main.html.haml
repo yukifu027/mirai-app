@@ -16,9 +16,13 @@
         = link_to new_place_comment_path(@place.id), class: "edit-btn" do
           コメントをする
       .messages
-        - @comments.each do |comment|
+        - if @comments.exists?
+          - @comments.each do |comment|
+            .message
+              .message__user-name
+                = comment.user.name
+              .message__content
+                = comment.text
+        - else
           .message
-            .message__user-name
-              = current_user.name
-            .message__content
-              = comment.text
+            現在投稿されているコメントはありません

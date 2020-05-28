@@ -1,22 +1,22 @@
-.form{
-  width: 85%;
-  height: 100%;
+.comment-items{
+  width: calc(100% / 2);
+  height: calc(100% - 60px);
+  padding: 60px;
   margin: 0 auto;
-  padding-top: 30px;
   &__title{
-    display: block;
-    width: 100%;
-    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0;
   }
-  &__text{
-    display: block;
+  &__form{
     width: 100%;
-    height: 50%;
-    margin-top: 15px;
-  }
-  &__btn{
-    display: block;
-    width: 30%;
-    margin: 15px auto 0;
+    height: 100vh;
+    .submit-btn{
+      padding: 10px;
+    }
+    .alert{
+      text-align: center;
+    }
   }
 }
