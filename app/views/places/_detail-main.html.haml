@@ -2,7 +2,7 @@
   .contents
     .contents__title
       = @place.name
-    = image_tag "/#{@place.image}", alt: "場所写真", class: "contents__image"
+    = image_tag @place.image, alt: "場所写真", class: "contents__image"
     .contents__explain
       = @place.content
     .contents__info

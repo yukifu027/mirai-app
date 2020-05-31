@@ -12,10 +12,19 @@
   &__form{
     width: 100%;
     height: 100vh;
-    .submit-btn{
-      padding: 10px;
+    .text-area{
+      width: 100%;
+      height: 400px;
     }
-    .alert{
+    .submit-btn{
+      padding: 10px 20px;
+      color: white;
+      background-color: red;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+    .alert{ 
       text-align: center;
     }
   }
