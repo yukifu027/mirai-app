@@ -1,0 +1,16 @@
+.new-main
+  .contents
+    = form_for [@place] do |f|
+      #contents__new-title
+        遺産画像
+      = f.file_field :image, class: "contents__image"
+      #contents__new-title
+        名前
+      = f.text_field :name, class: "contents__name"
+      #contents__new-title
+        説明
+      = f.text_area :content, class: "contents__content"
+      #contents__new-title
+        ウェブページURL
+      = f.text_field :webpage, class: "contents__webpage"
+      = f.submit "投稿", class: "contents__submit"

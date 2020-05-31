@@ -7,6 +7,6 @@
       = form_for [@place, @comment] do |form|
         = form.text_area :text, placeholder: "適切なコメントを心がけてください", class: 'text-area', size: "65x20"
         = form.submit "送信", class: 'submit-btn'
-    - else 
+    - else
       .alert
         ※※※ コメントの投稿には新規登録/ログインが必要です ※※※

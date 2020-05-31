@@ -33,6 +33,7 @@ Things you may want to cover:
 
 ### Association
 - has_many :comments
+- has_many :places
 
 ## placesテーブル
 
@@ -42,9 +43,11 @@ Things you may want to cover:
 |image|string|--------|
 |content|text|null: false|
 |webpage|string|--------|
+|user_id|integer|null: false, foreign_key: true|
 
 ### Association
 - has_many :comments
+- belongs_to :user
 
 <!-- ## areasテーブル
 
