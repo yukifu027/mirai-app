@@ -38,11 +38,20 @@
     height: 100px;
     width: 800px;
     border-radius: 5px;
-    .text-field{
+    #text-field{
       width: 600px;
       height: 50px;
       margin: 25px 100px;
     }
+    #place-search-result{
+      font-weight: bold;
+      display: flex;
+      .place-list__name{
+        display: inline-block;
+        padding: 5px;
+        color: black;
+        text-decoration: none;
+      }
+    }
   }
-
 }
