@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .search-area{
+  #text-field{
     width: 250px;
     height: 35px;
     margin-left: 50px;
@@ -17,5 +17,15 @@
     color: white;
     margin-right: 50px;
     font-weight: bold;
+  }
+}
+#place-search-result{
+  font-weight: bold;
+  display: flex;
+  .place-list__name{
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
   }
 }
