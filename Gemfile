@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
+gem 'rails', '5.2.2'
 # Use mysql as the database for Active Record
 
 # Use Puma as the app server
@@ -57,6 +57,7 @@ gem 'devise'
 gem "font-awesome-sass"
 gem 'carrierwave'
 gem 'mini_magick'
+gem "aws-sdk-s3", require: false
 
 group :production do
   gem 'pg'
