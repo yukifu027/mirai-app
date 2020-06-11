@@ -46,7 +46,7 @@ https://miraiapp.herokuapp.com/
 　⇒特に、デプロイがまだできていない場合はDEMOをつけることで見た目を企業側に伝えることができます。
 # 工夫したポイント
 # 使用技術(開発環境)
-Ruby/Ruby on rails/jQuery/heroku
+Ruby/Ruby on Rails/MySQL/Github/heroku/Visual Studio Code
 # 課題や今後実装したい機能
 本番環境で画像が表示されない  
 S3のストレージと連携させる
