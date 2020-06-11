@@ -32,7 +32,8 @@ Things you may want to cover:
 
 # 本番環境
 ## 🌐 デプロイ先
-https://miraiapp.herokuapp.com/
+[https://miraiapp.herokuapp.com/](https://miraiapp.herokuapp.com/){:target="_blank"}
+
 ## テストアカウント＆ID
 
 # 制作背景(意図)
