@@ -25,7 +25,8 @@ Things you may want to cover:
 
 ![Mirai-app](https://i.gyazo.com/f17e8e08dcc96a2da9fa422c5fb3e13f.gif)
 
-# アプリ名
+<h2 align="center">Mirai</h2>
+
 # 概要(このアプリでできることを書いて下さい)
 # 本番環境(デプロイ先　テストアカウント＆ID)
 # 制作背景(意図)
