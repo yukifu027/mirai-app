@@ -4,6 +4,12 @@ User.create!(
   password: 'Tf873046'
 )
 
+User.create!(
+  name: 'test',
+  email: 'test75@gmail.com',
+  password: 'NYN0rsnD'
+)
+
 Place.create!(
   name: '奇跡の一本松',
   image: File.open('./public/places/DSC01042-e1462549976908.jpg'),
