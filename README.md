@@ -23,6 +23,30 @@ Things you may want to cover:
 
 * ...
 
+![Mirai-app](https://i.gyazo.com/f17e8e08dcc96a2da9fa422c5fb3e13f.gif)
+
+<h2 align="center">Mirai</h2>
+
+# 概要
+震災遺構や戦跡など人類の負の遺産をレビューできるWebアプリです。ユーザーは、気になる負の遺産を検索し、それに対しコメントを残すことができます。
+
+# 本番環境
+## 🌐 デプロイ先
+[Mirai](https://miraiapp.herokuapp.com/){:target="_blank"}
+
+
+## テストアカウント＆ID
+
+# 制作背景(意図)
+　⇒どんな課題や不便なことを解決するためにこのアプリを作ったのか。
+# DEMO(gifで動画や写真を貼って、ビューのイメージを掴んでもらいます)
+　⇒特に、デプロイがまだできていない場合はDEMOをつけることで見た目を企業側に伝えることができます。
+# 工夫したポイント
+# 使用技術(開発環境)
+# 課題や今後実装したい機能
+
+# DB設計
+
 ## usersテーブル
 
 |Column|Type|Options|
