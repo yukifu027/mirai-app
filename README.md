@@ -22,7 +22,7 @@ https://miraiapp.herokuapp.com/
 
 ![Mirai-app](https://i.gyazo.com/1dfc8c74e5d9fb4654e82db4d8639ad5.gif)
 
-2. 検索欄または一覧から気になる遺産を選ぶ
+2. 検索欄または一覧から気になる遺産を選ぶ（初期データとして登録されている）
 
 ![Mirai-app](https://i.gyazo.com/9b8b3cb81b37e34e24743a877f3947e2.jpg)
 
@@ -35,7 +35,10 @@ https://miraiapp.herokuapp.com/
 ![Mirai-app](https://i.gyazo.com/35ebf5050ef81da56919b575e68ccd4c.png)
 
 # 工夫したポイント
-
+- ローディングアニメーションを実装し、ユーザーにインパクトのあるUIを心がけました。
+- 検索には、曖昧検索かつ非同期通信を採用し、ユーザーの使いやすさを重視しました。
+- ユーザー自身も自由に負の遺産を投稿できることで、世間から認知されていない場所が改めて認知される機会を作りました。
+- レビュー機能を追加し、当事者が当時の記憶を書き残し、また旅行者も感想を書き残せることで、「記憶継承の文化をみんなで作り上げていくサービス」ということを意識しました。
 
 # 使用技術(開発環境)
 Ruby/Ruby on Rails/MySQL/Github/heroku/Visual Studio Code
