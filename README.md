@@ -16,7 +16,7 @@ https://miraiapp.herokuapp.com/
 # 制作背景(意図)
 昨今、人類が過去に経験した負の遺産を巡るダークツーリズムが注目を集めています。しかしながら、それにはいくつか課題があります。一点目は、世間から認知されている場所がほんの一部であるということ。二点目は、戦跡に関して、一つの歴史観だけではなく、様々な考えがあるということを知ること。三点目は、月日が流れるにつれて証言者がいなくなり、記憶を継承する機会が減っていることです。私は、これらの課題を少しでも前に進めるために、ITを使って、**負の遺産を記憶する**ためのWebアプリを開発しました。
  
-# DEMO(gifで動画や写真を貼って、ビューのイメージを掴んでもらいます)
+# DEMO
 
 1. トップページからログイン
 
@@ -24,12 +24,15 @@ https://miraiapp.herokuapp.com/
 
 2. 検索欄または一覧から気になる遺産を選ぶ
 
-![Mirai-app](https://i.gyazo.com/1afe025e424c69ccd992549076653d14.gif)
-![Mirai-app](https://i.gyazo.com/f17e8e08dcc96a2da9fa422c5fb3e13f.gif)
+![Mirai-app](https://i.gyazo.com/9b8b3cb81b37e34e24743a877f3947e2.jpg)
 
 3.　負の遺産へのレビューを行う
 
 ![Mirai-app](https://i.gyazo.com/fedeeba42e1a31c36b52063154e4e8b1.gif)
+
+（4. ユーザー自ら遺産の追加も可能）
+
+![Mirai-app](https://i.gyazo.com/35ebf5050ef81da56919b575e68ccd4c.png)
 
 # 工夫したポイント
 
