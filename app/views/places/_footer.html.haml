@@ -3,7 +3,10 @@
     管理人
   .items
     = image_tag "/IMG_5336.JPG", alt: "管理人写真", class: "items__image"
-    .items__accounts
-      = link_to("Twitter", "https://twitter.com/X8makSD43KURayD", class: 'twitter')
-      = link_to("Facebook", "https://www.facebook.com/profile.php?id=100011484172817", class: 'facebook')
-      = link_to("Wixsite", "https://travelgeo25.wixsite.com/mysite?fbclid=IwAR0rA6XgkuiOkvuLn7rkg4vc5Ib6XsXgdKxBTDMWZEuvurp0yk9Vqe0DM7g", class: 'webpage')
+    .items__content
+      .introduce
+        都内在住のWebエンジニアです。趣味は、歴史を巡る旅をすること。「みなさんで記憶を紡いでいくサービス」を目指して頑張ります！
+      .accounts
+        = link_to("Twitter", "https://twitter.com/X8makSD43KURayD", class: 'twitter')
+        = link_to("Facebook", "https://www.facebook.com/profile.php?id=100011484172817", class: 'facebook')
+        = link_to("Wixsite", "https://travelgeo25.wixsite.com/mysite?fbclid=IwAR0rA6XgkuiOkvuLn7rkg4vc5Ib6XsXgdKxBTDMWZEuvurp0yk9Vqe0DM7g", class: 'webpage')

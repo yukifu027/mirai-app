@@ -13,25 +13,32 @@
       height: 100px;
       object-fit: cover;
     }
-    &__accounts{
-      font-size: 15px;
-      margin: 25px;
-      font-weight: bold;
-      .twitter{
-        text-decoration: none;
-        color: black;
-        margin: 10px;
+    &__content{
+      .introduce{
+        font-size: 15px;
+        margin: 20px;
+        font-weight: bold;
+      }
+      .accounts{
+        font-size: 15px;
+        margin: 20px;
+        font-weight: bold;
+        .twitter{
+          text-decoration: none;
+          color: black;
+          margin: 10px;
 
-      }
-      .facebook{
-        text-decoration: none;
-        color: black;
-        margin: 10px;
-      }
-      .webpage{
-        text-decoration: none;
-        color: black;
-        margin: 10px;
+        }
+        .facebook{
+          text-decoration: none;
+          color: black;
+          margin: 10px;
+        }
+        .webpage{
+          text-decoration: none;
+          color: black;
+          margin: 10px;
+        }
       }
     }
   }
