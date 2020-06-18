@@ -1,6 +1,8 @@
-![Mirai-app](https://i.gyazo.com/f17e8e08dcc96a2da9fa422c5fb3e13f.gif)
 
 <h2 align="center">Mirai</h2>
+
+![Mirai-app](https://i.gyazo.com/f17e8e08dcc96a2da9fa422c5fb3e13f.gif)
+
 
 # 概要
 **震災遺構や戦跡など人類の負の遺産をレビューできる**Webアプリです。ユーザーは、気になる負の遺産を検索し、それに対しコメントを残すことができます。
