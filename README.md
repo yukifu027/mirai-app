@@ -60,6 +60,8 @@ Ruby/Ruby on Rails/MySQL/Github/heroku/Visual Studio Code
   <dd>APIを用いて、手軽なSNSログインを実装することで、ユーザーの利用率をあげる</dd>
   <dt>遺産の場所が一目でわからない</dt>
   <dd>GoogleMapのAPIを実装し、遺産の場所がすぐにわかるようにしたい</dd>
+  <dt>多言語対応していない</dt>
+  <dd>英語の翻訳版も載せられるようにしたい</dd>
 </dl>
   
 
