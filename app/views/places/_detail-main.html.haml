@@ -9,8 +9,9 @@
       基本情報
     .contents__URL
       URL : #{@place.webpage}
-    = link_to place_events_path(@place.id), class: "contents__event" do
-      ガイド予約
+    .contents__event
+      = link_to place_events_path(@place.id), class: "event-btn" do
+        ガイド予約
     .contents__comment
       .items
         .title
