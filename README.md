@@ -118,3 +118,16 @@ Ruby/Ruby on Rails/MySQL/Github/heroku/Visual Studio Code
 ### Association
 - belongs_to :user
 - belongs_to :place
+
+## eventsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|start|datetime|null: false|
+|end|datetime|null: false|
+|user_id|integer|null: false, foreign_key: true|
+|place_id|integer|null: false, foreign_key: true|
+
+### Association
+- belongs_to :user
+- belongs_to :place
