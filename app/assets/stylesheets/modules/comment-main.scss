@@ -17,12 +17,7 @@
       height: 400px;
     }
     .submit-btn{
-      padding: 10px 20px;
-      color: white;
-      background-color: red;
-      border-radius: 10px;
-      display: block;
-      margin: 0 auto;
+      @include submitbtn();
     }
     .alert{ 
       text-align: center;

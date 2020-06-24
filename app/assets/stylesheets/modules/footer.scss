@@ -1,8 +1,6 @@
 .footer{
   .manager-name{
-    font-weight: bold;
-    font-size: 25px;
-    padding: 75px 0px 30px 80px;;
+    @include sub-title();
   }
   .items{
     display: flex;
@@ -15,29 +13,19 @@
     }
     &__content{
       .introduce{
-        font-size: 15px;
-        margin: 20px;
-        font-weight: bold;
+        @include footer();
       }
       .accounts{
-        font-size: 15px;
-        margin: 20px;
-        font-weight: bold;
+        @include footer();
         .twitter{
-          text-decoration: none;
-          color: black;
-          margin: 10px;
+          @include account();
 
         }
         .facebook{
-          text-decoration: none;
-          color: black;
-          margin: 10px;
+          @include account();
         }
         .webpage{
-          text-decoration: none;
-          color: black;
-          margin: 10px;
+          @include account();
         }
       }
     }

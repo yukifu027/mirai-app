@@ -1,0 +1,35 @@
+@mixin sub-title(){
+  font-weight: bold;
+  font-size: 25px;
+  padding: 75px 0px 30px 80px;;
+}
+
+@mixin footer(){
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+@mixin account(){
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+@mixin login-new(){
+  position: absolute;
+  top: 15px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+@mixin submitbtn(){
+  display: block;
+  margin: 0 auto;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;  
+  font-weight: bold;
+  border-radius: 10px;
+}
