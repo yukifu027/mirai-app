@@ -4,20 +4,12 @@
   background-color: #99FF99;
   position: relative;
   &__login-btn{
-    position: absolute;
-    top: 15px;
+    @include login-new();
     right: 65px;
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
   }
   &__login-btn2{
-    position: absolute;
-    top: 15px;
+    @include login-new();
     right: 160px;
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
   }
   &__image{
     width: 100%;
