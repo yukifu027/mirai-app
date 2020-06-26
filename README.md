@@ -25,11 +25,11 @@ https://miraiapp.herokuapp.com/
 
 ### 1. トップページからログイン
 
-![Mirai-app](https://i.gyazo.com/1dfc8c74e5d9fb4654e82db4d8639ad5.gif)
+![Mirai-app](https://gyazo.com/a91b17866111dc0e8aa7743f899f08f4.gif)
 
 ### 2. 検索欄または一覧から気になる遺産を選ぶ（初期データとして登録されている）
 
-![Mirai-app](https://i.gyazo.com/9b8b3cb81b37e34e24743a877f3947e2.jpg)
+[![Image from Gyazo](https://i.gyazo.com/a5e6e640164726c7879df10eef2b4b80.jpg)](https://gyazo.com/a5e6e640164726c7879df10eef2b4b80)
 
 ### 3.　負の遺産へのレビューを行う
 
