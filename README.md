@@ -1,7 +1,7 @@
 
 <h2 align="center">Mirai</h2>
 
-![Mirai-app](https://i.gyazo.com/f17e8e08dcc96a2da9fa422c5fb3e13f.gif)
+[![Image from Gyazo](https://i.gyazo.com/f3644c428214fb6f30d2c8e6628919a5.jpg)](https://gyazo.com/f3644c428214fb6f30d2c8e6628919a5)
 
 
 # 概要
