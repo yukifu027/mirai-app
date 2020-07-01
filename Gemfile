@@ -58,6 +58,8 @@ gem "font-awesome-sass"
 gem 'carrierwave'
 gem 'mini_magick'
 gem "aws-sdk-s3", require: false
+gem 'momentjs-rails'
+gem 'fullcalendar-rails'
 
 group :production do
   gem 'pg'

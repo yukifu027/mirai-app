@@ -13,3 +13,17 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require moment
+//= require fullcalendar
+
+$(document).ready(function() {
+
+  // page is now ready, initialize the calendar...
+
+  $('#calendar').fullCalendar({
+  })
+
+});
+
+
+
