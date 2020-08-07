@@ -23,7 +23,7 @@ https://miraiapp.herokuapp.com/
  
 # DEMO
 
-### 1. トップページからログイン
+### 1. トップページからログイン（メールアドレス・Facebook・Google）
 
 ![Mirai-app](https://gyazo.com/a91b17866111dc0e8aa7743f899f08f4.gif)
 
@@ -58,8 +58,6 @@ Ruby/Ruby on Rails/MySQL/Github/heroku/Visual Studio Code
   <dd>施設の公式アカウントを作成し、ボランティアガイドとユーザーのマッチング機能を実装する</dd>
   <dt>検索方法を増やす</dt>
   <dd>ジャンルテーブルを作成し、ジャンルでユーザーが検索できるようにする</dd>
-  <dt>ログイン方法を増やす</dt>
-  <dd>APIを用いて、手軽なSNSログインを実装することで、ユーザーの利用率をあげる</dd>
   <dt>遺産の場所が一目でわからない</dt>
   <dd>GoogleMapのAPIを実装し、遺産の場所がすぐにわかるようにしたい</dd>
   <dt>多言語対応していない</dt>
