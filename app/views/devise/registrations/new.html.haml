@@ -24,6 +24,6 @@
     .actions
       = f.submit "新規登録", class: "login-btn"
   = link_to "ホーム", root_path, class: "home"
+  = render "devise/shared/links"
   = link_to 'Facebookで登録', user_facebook_omniauth_authorize_path, method: :post
   = link_to 'Googleで登録', user_google_oauth2_omniauth_authorize_path, method: :post
-  = render "devise/shared/links"
