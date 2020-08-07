@@ -41,17 +41,6 @@ ActiveRecord::Schema.define(version: 2020_07_21_114045) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "events", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.datetime "start", null: false
-    t.datetime "end", null: false
-    t.integer "user_id", null: false
-    t.integer "place_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "title"
-    t.text "description"
-  end
-
   create_table "places", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name", null: false
     t.string "image"
