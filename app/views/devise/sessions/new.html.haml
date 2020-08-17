@@ -16,6 +16,6 @@
     .actions
       = f.submit "ログイン", class: "login-btn"
   = link_to "ホーム", root_path, class: "home"
-  = link_to 'Facebookでログイン', user_facebook_omniauth_authorize_path, method: :post
-  = link_to 'Googleでログイン', user_google_oauth2_omniauth_authorize_path, method: :post
+  = link_to 'Facebookでログイン', user_facebook_omniauth_authorize_path, class:"facebook-login-btn", method: :post
+  = link_to 'Googleでログイン', user_google_oauth2_omniauth_authorize_path, class:"google-login-btn", method: :post
   = render "devise/shared/links"

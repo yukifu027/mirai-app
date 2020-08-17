@@ -1,6 +1,6 @@
 .session{
   width: calc(100vw / 2);
-  height: 100vh;
+  height: 800px;
   border: 1px solid slategrey;
   margin: 0 auto;
   .log-in{
@@ -49,5 +49,23 @@
     padding: 20px 50px;
     background-color: cornflowerblue;
     color: white;
+  }
+  .facebook-login-btn{
+    display: block;
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+    background-color: cadetblue;
+    border-radius: 30px;
+    text-align: center;
+  }
+  .google-login-btn{
+    display: block;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: pink;
+    border-radius: 30px;
+    text-align: center;
   }
 }
